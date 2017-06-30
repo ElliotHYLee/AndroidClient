@@ -19,6 +19,7 @@ public class ConnectThread extends Thread {
     public ConnectThread(String addr, int port, TextView tv){
         hostName = addr;
         this.port = port;
+        Log.d("Client Thread", String.valueOf(port));
         this.tv = tv;
     }
 
